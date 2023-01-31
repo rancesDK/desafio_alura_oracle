@@ -1,0 +1,156 @@
+body {
+    background: #F3F5FC;
+}
+
+.container {
+    /*contenedor de todo los div*/
+    width: 1120px;
+    padding: 10px;
+    height: 560px;
+    margin: auto;
+    background: #F3F5FC;
+    /* background: yellow; */
+}
+
+.container-logo {
+    float: left;
+    width: 70%;
+    height: auto;
+    background: #F3F5FC;
+    background: #F3F5FC;
+    /* background: blue; */
+
+}
+
+.logo {
+    float: inherit;
+    margin-top: 1px;
+    margin-left: 5%;
+}
+
+.container-text1 {
+    /*contenedor de dode se ingresael texto*/
+    float: left;
+    width: 70%;
+    height: auto;
+    background: #F3F5FC;
+    /* background: red; */
+    border-radius: 20px;
+
+
+}
+
+.container-text1 textarea {
+    background: #F3F5FC;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    resize: none;
+    border: none;
+    color: #0A3871;
+    font-size: 20px;
+    outline: none;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-transform: lowercase;
+}
+
+.container-bottom {
+    float: left;
+    width: 70%;
+    height: auto;
+    background: #F3F5FC;
+    /* background: aqua; */
+    border-radius: 20px;
+}
+
+.container-bottom p {
+    margin-left: 15%;
+}
+
+#bt-encriptar {
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+}
+
+#bt-desencriptar {
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+
+}
+
+
+/*altura de 545px con un padin de 20 del conteiner*/
+.container-text2 {
+    float: right;
+    width: 30%;
+    height: 550px;
+    background: #ffffff;
+    /* background: orange;  */
+    border-radius: 20px;
+
+
+}
+
+.container-text2 textarea {
+    float: left;
+    margin: auto 5%;
+    background: #ffffff;
+    border: none;
+    resize: none;
+    font-size: 15px;
+    text-align: center;
+    color: #0A3871;
+    position: relative;
+    top: 50px;
+}
+
+.container-text2 img {
+    width: 60%;
+    height: auto;
+    margin-top: 20%;
+    margin-left: 15%;
+
+}
+
+.container-text2 h2 {
+    text-align: center;
+    margin: 20px 40px 0;
+    color: #0A3871;
+}
+
+.container-text2 button {
+    position: relative;
+    bottom: 5px;
+    top: 340px;
+    width: 70%;
+    height: 45px;
+    background: #F3F5FC;
+    border-radius: 20px;
+    margin: 10px 15%;
+    font-size: 20px;
+    display: none;
+
+}
+@media(max-width:360px){
+    body{
+        background: red;
+        
+    }
+    .container{
+        width:100%;
+    }
+    .container-text1{
+        width: 100%;
+    }
+    .container-text2{
+        width: 100%;
+    }
+}

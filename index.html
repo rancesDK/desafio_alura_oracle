@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="css/style.css">
+     <script src="javascript/script.js"></script> 
+    <title>proyecto1</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-logo">
+            <img src="imagenes/Vector.png" alt="logo" class="logo">
+        </div>
+
+        <div class="container-text2">
+            <img src="imagenes/imagen1.png" alt="imagen" id="imadercha">
+            <h2 id="text-derecho">ningun mensaje fue encontrado </h2>
+            <textarea  id="texto_ou" cols="35" rows="6"
+                placeholder="Ingrese el texto que decea encriptar o desencriptar"></textarea>
+            <button id="copiar" onclick="copyDocument()">copiar</button>
+        </div>
+
+        <div class="container-text1">
+            <textarea  id="texto_in" cols="40" rows="10" class="text-in"
+                placeholder="Ingrese el texto aqui"></textarea>
+        </div>
+
+        <div class="container-bottom">
+            <p><img src="imagenes/icono.png" alt="icono" > solo en minusculas y sin acentos</p>
+            <button type="button" id="bt-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="bt-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
